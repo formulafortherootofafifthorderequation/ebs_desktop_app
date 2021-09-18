@@ -16,6 +16,7 @@ ipcRenderer.on(CLASS.CLASS_LIST_RESPONSE, (event, data) => {
             </a>
         `);
     }
+    $("div.panel").append(`<div class="empty"></div>`);
 });
 
 ipcRenderer.on(CLASS.CLASS_LIST_FAILURE, () => {

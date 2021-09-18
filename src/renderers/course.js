@@ -48,6 +48,7 @@ ipcRenderer.on(COURSE.COURSE_RESPONSE, (event, data) => {
             </a>
         `);
     }
+    $("div.panel").append(`<div class="empty"></div>`);
 });
 
 ipcRenderer.on(COURSE.COURSE_FAILURE, () => {

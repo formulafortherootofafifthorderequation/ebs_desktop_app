@@ -3,7 +3,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background-color: #5C000D;
     overflow: hidden;
     display: table;
     margin:auto;
@@ -68,7 +68,7 @@ body{
     padding:0;
     border: none;
     border-radius: 5px;
-    background-color: #fa722e;
+    background-color: #FF485A;
     font-size: 20px;
     color:white;
 }
@@ -76,7 +76,7 @@ body{
     cursor: pointer;
 }
 .login_btn:active {
-    background-color: #fa5300;
+    background-color: #b3303d;
 }
 
 .footer {

@@ -125,7 +125,7 @@ a{
     line-height: 50px;
 }
 .nav_list:hover .popup{
-    transition:all 0.5s ease;
+    transition:all 0.4s ease;
     top: 50%;
     display:inline;
     opacity:1;
@@ -151,7 +151,6 @@ a{
     font-size: 18px;
     opacity:0;
     pointer-events: none;
-    transition:all 0.5s ease;
 }
 
 .popup{
@@ -166,9 +165,13 @@ a{
     line-height:35px;
     text-align:center;
     border-radius:6px;
-    transition:0s;
+    transition:all 0.4s ease;
     opacity:0;
-    display:none;
+}
+.popup:hover{
+    opacity:0 !important;
+    transition:all 0.4s ease;
+    cursor:default;
 }
 
 /*index*/
@@ -190,13 +193,13 @@ a{
     display:flex;
     background-color: white;
     height: 50px;
-    border-radius: 20px;
+    border-radius: 7px;
     width:90%;
     margin:9px auto 0;
-    border:4px solid #5C000D;
     justify-content: space-between;
     padding:5px;
     align-items: center;
+    box-shadow: 0px 0px 5px 1px #bcbcbc;
 }
 .obj:hover {
     cursor:pointer;
@@ -210,6 +213,12 @@ a{
     display:inline-block;
 }
 
+.empty{
+    margin: 28px 0 0 0;
+    width:90%;
+    height: 1px;
+}
+
 /*course*/
 .course_btn{
     margin:0 20px 0 0;
@@ -218,12 +227,19 @@ a{
 }
 
 .course_btn_continue{
-    background-color: #FFBBC0;
+    background-color: #5C000D;
+    color:white;
+}
+.course_btn_continue:active{
+    background-color: #52010c;
 }
 
 .course_btn_done{
     background-color: gray;
     color:white;
+}
+.course_btn_done:active{
+    background-color: #757575;
 }
 
 /*player*/

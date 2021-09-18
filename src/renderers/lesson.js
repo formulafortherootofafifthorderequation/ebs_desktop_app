@@ -18,6 +18,7 @@ ipcRenderer.on(LESSON.LESSON_RESPONSE, (event, data) => {
             </a>
         </div>`);
     }
+    $("div.panel").append(`<div class="empty"></div>`);
 });
 
 ipcRenderer.on(LESSON.LESSON_FAILURE, () => {
