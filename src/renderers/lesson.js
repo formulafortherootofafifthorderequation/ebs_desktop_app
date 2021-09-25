@@ -15,6 +15,7 @@ ipcRenderer.on(LESSON.LESSON_RESPONSE, (event, data) => {
         $("div.panel").append(`<div class="obj">
             <a class="padding" href="./player.html?classUrlPath=${item.classUrlPath}&lessonSeq=${item.parentLessonSeq}&subLessonSeq=${item.lessonSeq}">
                 <p class="obj_text">${item.lessonName}</p>
+                <p class="course_btn"></p>
             </a>
         </div>`);
     }

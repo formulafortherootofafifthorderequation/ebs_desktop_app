@@ -11,7 +11,7 @@ const COURSE_STATUS = Object.freeze({
 
 const COURSE_STATUS_TEXT = Object.freeze({
     "000": "학습시작",
-    "001": "학습계속",
+    "001": "학습 이어하기",
     "002": "학습완료"
 });
 
